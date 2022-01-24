@@ -1,0 +1,47 @@
+.header-content {
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  height: 120px;
+  justify-content: space-between;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.header-title {
+  align-items: center;
+  display: flex;
+}
+
+.email-user {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-right: 25px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.email-user:hover {
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-right: 25px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.expense-user {
+  border: 1px solid lightgray;
+  border-radius: 4px;
+  margin-right: 50px;
+  padding: 15px;
+  transition: 0.3s;
+}
+
+.expense-user:hover {
+  border: 1px solid gray;
+  border-radius: 4px;
+  margin-right: 50px;
+  padding: 15px;
+  transition: 0.3s;
+}

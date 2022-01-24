@@ -1,0 +1,68 @@
+.expense-form {
+  align-items: center;
+  background-color: white;
+  border: 1px solid lightgray;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+}
+
+input {
+  border: none;
+  border-bottom: 2px solid lightgray;
+  transition: 0.3s;
+}
+
+input:hover {
+  border: none;
+  border-bottom: 2px solid gray;
+  transition: 0.3s;
+}
+
+button {
+  background-color: rgb(99, 208, 245);
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.3s;
+  width: 200px;
+}
+
+button:hover {
+  background-color: rgb(78, 170, 201);
+  border-radius: 3px;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.3s;
+  width: 200px;
+}
+
+select {
+  background-color: whitesmoke;
+  border: 1px solid lightgray;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.3s;
+  width: 130px;
+}
+
+select:hover {
+  background-color: whitesmoke;
+  border: 1px solid gray;
+  border-radius: 3px;
+  cursor: pointer;
+  height: 30px;
+  transition: 0.3s;
+  width: 130px;
+}
+
+.element-from {
+  margin-left: 25px;
+  margin-right: 25px;
+}
+
+.htmlfor {
+  margin-right: 15px;
+}
