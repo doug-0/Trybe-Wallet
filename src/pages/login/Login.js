@@ -4,7 +4,8 @@ import { Link } from 'react-router-dom';
 import { connect } from 'react-redux';
 import { loginUser as loginUserAction } from '../../actions/index';
 import illustration from '../../img/cryptocurrency.svg';
-import './Login.css';
+import './css/Login.css';
+import './css/Login.Response.css';
 
 class Login extends React.Component {
   constructor() {
