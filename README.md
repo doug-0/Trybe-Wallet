@@ -20,7 +20,7 @@ npm install
 ``` 
 ## Executando aplicação
 
-* Para rodar o front-end:
+* Para iniciar o front-end:
 
   ```
    npm start
