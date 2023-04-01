@@ -30,13 +30,6 @@ class Login extends React.Component {
     this.setState({ passwordValidation: result });
   }
 
-  changeEmail(input) {
-    this.setState({ emailUser: input.target.value });
-    const regexEmail = /\S+@\S+\.\S+/;
-    const { emailUser } = this.state;
-    const result = regexEmail.test(emailUser);
-    this.setState({ emailValidation: result });
-  }
 
   checkBtn() {
     const { passwordValidation, emailValidation } = this.state;

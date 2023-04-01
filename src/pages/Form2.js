@@ -21,7 +21,7 @@ class Form2 extends Component {
         Tag:
         <select
           name="tag"
-          className="element-from"
+          className="elemento-from"
           data-testid="tag-input"
           onChange={ handleChange }
         >
