@@ -25,11 +25,9 @@ class Login extends React.Component {
   changePassWord(input) {
     const FIVE = 5;
     this.setState({ passWordUser: input.target.value });
-    const { passWordUser } = this.state;
-    const result = passWordUser.length >= FIVE;
+
     this.setState({ passwordValidation: result });
   }
-
 
   checkBtn() {
     const { passwordValidation, emailValidation } = this.state;
