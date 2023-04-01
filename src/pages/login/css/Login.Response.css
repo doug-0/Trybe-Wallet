@@ -1,0 +1,28 @@
+@media only screen and (max-width: 325px) {
+  body {
+    background-color: white;
+  }
+
+  .form-login {
+    border: none;
+    box-shadow: none;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+  }
+
+  .img-page-login {
+    display: none;
+  }
+  
+  .login-page {
+    margin-top: 50px;
+    align-items: center;
+    background-color: white;
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 78px;
+    padding-top: 78px;
+    width: 100%;
+  }
+}
